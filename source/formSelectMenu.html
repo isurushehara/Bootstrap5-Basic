@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Menu</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+    <!---->
+    <select class="form-select">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+
+    <!--Disabled Select Menu-->
+    <select class="form-select" disabled>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+
+    <!--Data Lists-->
+    <label for="browser" class="form-label">Choose your browser from the list:</label>
+    <input class="form-control" list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+
+    
+
+    
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
