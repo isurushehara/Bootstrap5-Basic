@@ -7,23 +7,30 @@
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <button data-bs-toggle="collapse" data-bs-target="#demo">Collapsible</button>
-    <div id="demo" class="collapse">Lorem ipsum dolor text....</div>
+    <h3>Collapse Button</h3>
+    <button data-bs-toggle="collapse" data-bs-target="#demo1">Collapsible</button>
+    <div id="demo1" class="collapse">Lorem ipsum dolor text....</div>
+    <br><hr>
 
-    <a href="#demo" data-bs-toggle="collapse">Collapsible</a>
-    <div id="demo" class="collapse">Lorem ipsum dolor text....</div>
+    <h3>Collapse Link</h3>
+    <a href="#demo2" data-bs-toggle="collapse">Collapsible</a>
+    <div id="demo2" class="collapse">Lorem ipsum dolor text....</div>
+    <br><hr>
 
     <!--Default show-->
+    <h3>Collapse Default Show</h3>
     <button data-bs-toggle="collapse" data-bs-target="#demo">Collapsible</button>
     <div id="demo" class="collapse show">Lorem ipsum dolor text....</div>
+    <br><hr>
 
     <!--Accordion-->
+    <h3>Accordion</h3> 
     <div id="accordion">
 
         <div class="card">
           <div class="card-header">
             <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-              Collapsible Group Item #1
+              Collapsible Group Item #1 - Default Show
             </a>
           </div>
           <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
@@ -60,17 +67,6 @@
         </div>
       
     </div>
-
-    <!--Default show-->
-
-
-    <!--Default show-->
-
-
-    <!--Default show-->
-
-
-    <!--Default show-->
     
     <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
